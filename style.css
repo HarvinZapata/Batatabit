@@ -134,6 +134,13 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.currency-container--slider{
+    display: flex;
+    height: 380px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity; 
+}
 .main-currency-table {
     scroll-snap-align: center;
     width: 70%;
